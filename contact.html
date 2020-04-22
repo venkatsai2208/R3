@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+    <title>R3 Webpage</title>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    
+    <nav>
+        <ul class="topnav" id="dropdownclick">
+            <li><a href="navbar.html">HOME</a></li>
+            <li><a href="#news">NEWS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li class="topnav-right"><a href="signin.html">SIGN UP</a></li>
+            <li class="topnav-right"><a href="user.html">SIGN IN</a></li>
+            
+        </ul>    
+    </nav>
+    <div class="ff">
+		<form action="process.php" method="POST" class="form">
+		 	<div>
+		 		<label>First name</label>
+		 		<input type="text" name="firstname" placeholder="enter name">
+		 	</div>
+		 		<br>
+		 	<div>
+		 		<label>Last name</label>
+		 		<input type="text" name="lastname">
+		 	</div>
+		 	<br>
+		 	<div>
+		 		<label>message</label>
+		 		<textarea name="message"></textarea> 
+		 	</div>
+		 	<br>
+		 	<div>
+		 		<label>Gender</label>
+		 		<select name="gender">
+		 			<option value="male">male</option>
+		 			<option value="female">female</option> 
+		 			
+		 		</select> 
+		 	</div>
+
+
+		 	<input type="subMit" name="submit"
+		 	value="submit">
+		 	
+		 </form>
+
+	</div>
+	
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
